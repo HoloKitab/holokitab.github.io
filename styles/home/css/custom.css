@@ -13,13 +13,6 @@ body {
 }
 
 
-.header_image {
-    background-image: url('.././../../assests/images/home/header.png') ;
-    height: 100%;
-    background-size: cover;
-    width: 100%;
-}
-
 
 @media (max-width: 980px) {
     .scan_qr_code {
@@ -30,24 +23,7 @@ body {
     .qr_title {
         margin-left: 10px;
         margin-right: 10px;
-        width: 100%;
     }
-
-    .header_image {
-    background-image: url(.././../../assests/images/home/header-min.png);
-    height: 76%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain
-    }
-
-
-    .cards {
-        position: relative;
-        bottom: 130px;
-    }
-
-
 }
 
 
@@ -102,6 +78,11 @@ body {
 }
 
 
+
+
+.header_image {
+    background-image: url('./assests/images/home/header.png');
+}
 
 
 .barcode_scan_area {
