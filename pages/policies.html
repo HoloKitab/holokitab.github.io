@@ -39,6 +39,9 @@
 	<link rel="stylesheet" id="wc-block-vendors-style-css" href="../styles/aboutus/css/vendors-style.css"
 		type="text/css" media="all">
 	<link rel="stylesheet" id="wc-block-style-css" href="../styles/aboutus/css/style.css" type="text/css" media="all">
+
+	<link rel="stylesheet" id="wc-block-style-css" href="../styles/aboutus/css/custom.css" type="text/css" media="all">
+	
 	<link rel="stylesheet" id="woocommerce-layout-css" href="../styles/aboutus/css/woocommerce-layout.css"
 		type="text/css" media="all">
 
@@ -58,6 +61,15 @@
 		media="all">
 	<link rel="stylesheet" id="dashicons-css" href="../styles/aboutus/css/dashicons.min.css" type="text/css"
 		media="all">
+		
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 	<script type="text/javascript" src="../styles/aboutus/js/jquery.js.download" id="jquery-core-js"></script>
 	<script type="text/javascript" src="../styles/aboutus/js/es6-promise.auto.min.js.download"
 		id="es6-promise-js"></script>
@@ -203,7 +215,7 @@
 											style="">
 											<div class="et_pb_fullwidth_header_container center">
 												<div class="header-content-container center">
-													<div class="header-content">
+													<div class="header-content" data-aos="flip-right">
 														<h1 class="et_pb_module_header">Policies</h1>
 													</div>
 												</div>
@@ -229,7 +241,7 @@
 																<div
 																	class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_center et_pb_bg_layout_light"  style="text-align: center;">
 																	<div class="et_pb_text_inner privacy_policy_title"
-																		>
+																		data-aos="slide-left">
 																		<h2>Privacy Policy</h2>
 																	</div>
 																</div>
@@ -285,7 +297,7 @@
 											<div class="et_pb_row et_pb_row_3 et_pb_equal_columns">
 												<div
 													class="et_pb_module et_pb_text et_pb_text_4  et_pb_text_align_center et_pb_bg_layout_dark center-full">
-													<div class="et_pb_text_inner" style="text-align: center;">
+													<div class="et_pb_text_inner" style="text-align: center;"data-aos="slide-left">
 														<h2>Holokitab Terms of Service</h2>
 													</div>
 												</div>
@@ -414,37 +426,46 @@
 				</article>
 			</div>
 			<footer id="main-footer">
-				<div id="footer-bottom">
-					<div class="container clearfix">
-						<ul class="et-social-icons">
-							<li class="et-social-icon et-social-facebook">
-								<a href="#" class="icon">
-									<span>Facebook</span>
-								</a>
-							</li>
-							<li class="et-social-icon et-social-twitter">
-								<a href="#" class="icon">
-									<span>Twitter</span>
-								</a>
-							</li>
-							<li class="et-social-icon et-social-google-plus">
-								<a href="#" class="icon">
-									<span>Google</span>
-								</a>
-							</li>
-							<li class="et-social-icon et-social-rss">
-								<a href="#" class="icon">
-									<span>RSS</span>
-								</a>
-							</li>
-						</ul>
-						<p id="footer-info">Designed by <a href="Devs" title="HoloKitab">Holo Kitab</a> | © Copyright
-							HoloKitab. <a href="#"> All Rights Reserved</a></p>
-					</div>
-				</div>
-			</footer>
-		</div>
-	</div>
+<div id="footer-bottom">
+<div class="container clearfix" style="text-align: center;">
+<ul class="et-social-icons">
+<li class="et-social-icon et-social-facebook">
+	<div
+													class="et_pb_module et_pb_blurb et_pb_blurb_2  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+													<div class="et_pb_blurb_content">
+														<div class="et_pb_main_blurb_image"><span
+																class="et_pb_image_wrap"><span
+																	class="et-waypoint et_pb_animation_top et-pb-icon"><a href="https://www.facebook.com/HoloKitab-238613237026832/" target="_blank"><img src="../icons/facebook.png"></a></span></span>
+														</div>
+													</div>
+												</div>
+</li>
+<li class="et-social-icon et-social-google-plus">
+<div
+													class="et_pb_module et_pb_blurb et_pb_blurb_1  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+													<div class="et_pb_blurb_content">
+														<div class="et_pb_main_blurb_image"><span
+																class="et_pb_image_wrap"><span
+																	class="et-waypoint et_pb_animation_top et-pb-icon"><a href="https://instagram.com/holokitab?igshid=mls9wcmglaey" target="_blank"><img src="../icons/instagram.png"></a></span></span>
+														</div>	
+													</div>
+												</div>
+</li>
+<li class="et-social-icon et-social-twitter">
+	<div
+													class="et_pb_module et_pb_blurb et_pb_blurb_1  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+													<div class="et_pb_blurb_content">
+														<div class="et_pb_main_blurb_image"><span
+																class="et_pb_image_wrap"><span
+																	class="et-waypoint et_pb_animation_top et-pb-icon"><a href="https://www.youtube.com/channel/UCtRvN8UAHv_ToAzduidAzew" target="_blank"><img src="../icons/youtube.png"></a></span></span>
+														</div>	
+													</div>
+												</div>
+</li>
+
+</ul><p id="footer-info">Designed by <a href="Devs" title="HoloKitab">Holo Kitab</a> | © Copyright HoloKitab. <a href="#"> All Rights Reserved</a></p> </div> 
+</div>
+</footer>
 	<script type="text/javascript">
 		var et_animation_data = [{ "class": "et_pb_fullwidth_header_0", "style": "zoom", "repeat": "once", "duration": "1000ms", "delay": "0ms", "intensity": "5%", "starting_opacity": "0%", "speed_curve": "ease-in-out" }, { "class": "et_pb_image_0", "style": "slideTop", "repeat": "once", "duration": "1000ms", "delay": "0ms", "intensity": "2%", "starting_opacity": "0%", "speed_curve": "ease-in-out" }, { "class": "et_pb_fullwidth_image_0", "style": "slideBottom", "repeat": "once", "duration": "1000ms", "delay": "0ms", "intensity": "2%", "starting_opacity": "0%", "speed_curve": "ease-in-out" }];
 	</script>
@@ -492,6 +513,12 @@
 	<script type="text/javascript" src="../styles/aboutus/js/wp-embed.min.js.download" id="wp-embed-js"></script>
 
 
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+							<script>
+								AOS.init({
+									duration: 1000
+								});
+							</script>
 </body>
 
 </html>

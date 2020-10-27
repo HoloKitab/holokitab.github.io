@@ -27,6 +27,19 @@ body {
 }
 
 
+@media (max-width: 450px) {
+    .et_pb_fullwidth_section {
+        padding: 0;
+        height: 200px;
+    }
+}
+@media (min-width: 450px) and (max-width: 980px) {
+    .et_pb_fullwidth_section {
+        padding: 0;
+        height: 500px;
+    }
+}
+
 .news_description {
     float: left;
     margin-right: 20px;
