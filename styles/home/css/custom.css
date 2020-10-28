@@ -33,10 +33,22 @@ body {
         height: 200px;
     }
 }
-@media (min-width: 450px) and (max-width: 980px) {
+@media (min-width: 320px) and (max-width: 765px) {
     .et_pb_fullwidth_section {
         padding: 0;
         height: 500px;
+        background-size: contain;
+        width: 100%;
+        background-image: url('../../../assests/images/home/header-min.png')
+    }
+}
+@media (min-width: 766px) and (max-width: 1440px) {
+    .et_pb_fullwidth_section {
+        padding: 0;
+        height: 500px;
+        background-size: contain;
+        width: 100%;
+        background-image: url('../../../assests/images/home/header.png')
     }
 }
 
