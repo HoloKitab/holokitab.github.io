@@ -40,6 +40,16 @@ body {
     }
 }
 
+@media (min-width: 320px) and (max-width: 980px) {
+
+    .et_pb_fullwidth_section  {
+        background-image: url('../../../assests/images/home/header.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        }
+}
+
+
 .news_description {
     float: left;
     margin-right: 20px;
