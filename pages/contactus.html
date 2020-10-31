@@ -15,6 +15,7 @@
     		font-weight: 900!important;
     		text-transform: uppercase!important;
     		background-color: #ff8259;
+			padding: 10px;
 		}
 		.newsletter {
 			color: #ff8259!important;
@@ -641,7 +642,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 										</div>
 									</div>
 									
-									<div class="et_pb_section et_pb_section_3 et_pb_with_background et_section_regular">
+									<div class="et_pb_section et_pb_section_3 et_pb_with_background et_section_regular" style="margin-bottom: 10px;">
 										<div class="et_pb_row et_pb_row_3">
 											<div
 												class="et_pb_column et_pb_column_4_4 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child">
@@ -654,55 +655,53 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 												<div
 													class="et_pb_module et_pb_signup_0 et_pb_newsletter_layout_top_bottom et_pb_newsletter et_pb_subscribe clearfix  et_pb_text_align_left et_pb_bg_layout_dark et_pb_no_bg et_pb_newsletter_description_no_title et_pb_newsletter_description_no_content">
 													<div class="et_pb_newsletter_description et_multi_view_hidden">
-													</div>
+													</div>   
 													<div class="et_pb_newsletter_form">
-														<form method="POST" autocomplete="off" name="newsletter">
+														<form id="news-letter" method="POST" autocomplete="off" name="newsletter-script" action="https://script.google.com/macros/s/AKfycbwy_yQ3rn2MjaD-zCJP5TSueo89c3MRAOALHa03Q8KkaRbimwQ/exec" target="_blank">
 														
 
 															<div class="et_pb_newsletter_fields">
-															<div class="form">
+															<div class="form-group">
 																<p
 																	 class="et_pb_newsletter_field et_pb_contact_field_last et_pb_contact_field_last_tablet et_pb_contact_field_last_phone">
-																	<label class="et_pb_contact_form_label"
-																		for="et_pb_signup_firstname"
-																		style="display: none;">Name</label>
+																
 																	<input class="form-control"
 																		type="text" placeholder="Name"
 																		name="names" required>
 																</p>	
 															</div>
-															<div class="form">
+															<div class="form-group">
 																<p
 																  class="et_pb_newsletter_field et_pb_contact_field_last et_pb_contact_field_last_tablet et_pb_contact_field_last_phone">
-																	<label class="et_pb_contact_form_label"
-																		for="et_pb_signup_email"
-																		style="display: none;">Email</label>
+																	
 																	<input class="form-control"
 																		type="text" placeholder="Email"
-																		name="emails" required>
+																		name="email" required>
 																</p>
 															</div>
-															<div class="form">
+															<div class="form-group">
 																<p class="et_pb_newsletter_button_wrap">
-														
-																		<input
-																			class="newsletter" data-aos="flip-right" type="submit" name="submit">
+														                 <button type="submit-button" class="newsletter" data-aos="flip-right" name="submit">Subscribe</button>
+																		
 																	
 																</p>
 																
 															</div>
 															</div>
 															<script>
-																const scriptURL = 'https://script.google.com/macros/s/AKfycbwy_yQ3rn2MjaD-zCJP5TSueo89c3MRAOALHa03Q8KkaRbimwQ/exec'
-																const form = document.forms['newsletter']
-															  
-																form.addEventListener('submitted', e => {
-																  e.preventDefault()
+															function news() {
+                                                            
+															const scriptURL = 'https://script.google.com/macros/s/AKfycbwy_yQ3rn2MjaD-zCJP5TSueo89c3MRAOALHa03Q8KkaRbimwQ/exec'
+															const form = document.forms['news-letter']
+															
+																form.addEventListener('submit-button', e => {
+																
 																  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-																	.then(response => alert("Thanks for contacting us ! We will contact you soon.."))
+																	.then(response => alert("Your Order has been accepted"))
 																	.catch(error => console.error('Error!', error.message))
 																})
-															  </script>
+															}
+															  </script>	
 														</form>
 													</div>
 												</div>
@@ -729,6 +728,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 					</div>
 				</article>
 			</div>
+
+			
 			<footer id="main-footer">
 <div id="footer-bottom">
 <div class="container clearfix" style="text-align: center;/* padding-top: 50px; */padding-top: 58px;">
@@ -811,7 +812,21 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 
 
-
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+918699646484", // WhatsApp number
+            call_to_action: "Message us", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
 </body>
 
 </html>
