@@ -311,14 +311,19 @@
 			height: 100%;
 		}
 	</style>
-	
+	<!--JQuery-->
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<!--Floating WhatsApp css-->
+<link rel="stylesheet" href="floating-wpp.min.css">
+<!--Floating WhatsApp javascript-->
+<script type="text/javascript" src="floating-wpp.min.js"></script>
 </head>
 
 <body
 	class="page-template-default page page-id-216356 theme-Divi woocommerce-js et_pb_button_helper_class et_fullwidth_nav et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns4 et_cover_background et_pb_gutter linux et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db et_minified_js et_minified_css chrome"
 	style="overflow-x: hidden;">
 	<div id="page-container" class="et-animated-content"
-		style="margin-top: -1px; padding-top: 80px; overflow-y: hidden;">
+		style="margin-top: -1px; padding-top: 80px;">
 		<header id="main-header" data-height-onload="80" class="" data-height-loaded="true"
 			data-fixed-height-onload="80" style="top: 0px;">
 			<div class="container clearfix et_menu_container">
@@ -973,6 +978,8 @@
 									<div>
 										<br>
 									</div>
+									<!--Div where the WhatsApp will be rendered-->
+<div id="WAButton"></div>
 									<footer id="main-footer">
 										<div id="footer-bottom">
 											<div class="container clearfix" style="text-align: center;">
@@ -1032,6 +1039,7 @@
 								</div>
 							</div>
 
+
 							<script type="text/javascript" src="./styles/home/js/jquery.blockUI.min.js.download"
 								id="jquery-blockui-js"></script>
 							<script type="text/javascript" src="./styles/home/js/add-to-cart.min.js.download"
@@ -1069,7 +1077,7 @@
 								});
 							</script>
 		<!-- GetButton.io widget -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     (function () {
         var options = {
             whatsapp: "+918699646484", // WhatsApp number
@@ -1081,8 +1089,24 @@
         s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
         var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
-</script>
-<!-- /GetButton.io widget -->		
+</script> -->
+<!-- /GetButton.io widget -->	
+
+<script type="text/javascript">
+	$(function () {
+			$('#WAButton').floatingWhatsApp({
+				phone: '+918699646484', //WhatsApp Business phone number
+				headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+				popupMessage: 'Hello, how can we help you?', //Popup Message
+				showPopup: true, //Enables popup display
+				buttonImage: '<img src="whatsapp.svg" />', //Button Image
+				//headerColor: 'crimson', //Custom header color
+				//backgroundColor: 'crimson', //Custom background button color
+				position: "right" //Position: left | right
+ 
+			});
+		});
+ </script>
 </body>
 
 </html>
