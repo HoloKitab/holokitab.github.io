@@ -379,37 +379,6 @@
 						<div id="et-boc" class="et-boc">
 							<div class="et-l et-l--post">
 								<div class="et_builder_inner_content et_pb_gutters3">
-									<div class="row holokitabimage">
-										<div class="col-md-6">
-                                           <div class="imagecontainer">
-											   <img src="./assests/images/home/mainheader.jpeg" height="700" width="800">
-										   </div>
-										</div>
-										<div class="col-md-6">
-											<div class="bookleft">
-                                            <div class="title">
-												<h1 class="booktitle"><b>Holokitab-ABC</b></h1>
-											</div>
-											<br>
-											<div class="description">
-												<h4>Here is the description.</h4>
-											</div>
-											<br>
-											<div class="bookbuttons">
-												<div class="et_pb_button_module_wrapper et_pb_button_1_wrapper  et_pb_module "
-												style="text-align: center;">
-												<a class="et_pb_button et_pb_custom_button_icon et_pb_button_1 et_pb_bg_layout_light btnone"
-													href="https://www.amazon.in/dp/B08MQJ22RV/ref=cm_sw_r_wa_apa_fabt1_.P7PFbS9K73TW">Buy Now</a>
-											    </div>
-											<div class="et_pb_button_module_wrapper et_pb_button_1_wrapper  et_pb_module "
-												style="text-align: center;">
-												<a class="et_pb_button et_pb_custom_button_icon et_pb_button_1 et_pb_bg_layout_light btntwo"
-													href="./pages/howtoscan.html">Learn More</a>
-											</div>
-											</div>
-										</div>
-									</div>
-									</div>
 									<!-- <div
 										class="et_pb_section et_pb_section_0 et_pb_section_parallax et_pb_with_background et_pb_fullwidth_section et_section_regular section_has_divider et_pb_bottom_divider">
 										<div class="et_parallax_bg_wrap">
@@ -446,7 +415,8 @@
 															<h4 class="et_pb_module_header"><span>Real 3D
 																	Learning</span></h4>
 															<div class="et_pb_blurb_description">
-																<p>Students can observe 3D Virtual objects in the real world. Thus, making the learning process exciting and fun
+																<p>3D Virtual objects are displayed in real world. Thus,
+																	making the learning process interesting and fun .
 																</p>
 															</div>
 														</div>
@@ -467,7 +437,8 @@
 															<h4 class="et_pb_module_header"><span>Interactive</span>
 															</h4>
 															<div class="et_pb_blurb_description">
-																<p>Virtual objects can be interacted with and are displayed in the real world, making it easy to understand</p>
+																<p>Virtual objects can be interacted and are displayed
+																	in real world, making it easy to understand</p>
 															</div>
 														</div>
 													</div>
@@ -486,7 +457,8 @@
 														<div class="et_pb_blurb_container">
 															<h4 class="et_pb_module_header"><span>Voiceover</span></h4>
 															<div class="et_pb_blurb_description">
-																<p>Voiceover: Embedded voice, along with 3D visuals, makes learning effective</p>
+																<p>Voice is also embedded along with 3D visuals. Hence,
+																	making learning effective.</p>
 															</div>
 														</div>
 													</div>
@@ -507,7 +479,14 @@
 													class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_center et_pb_bg_layout_light">
 													<div class="et_pb_text_inner">
 														<p>
-															We are an early-stage EdTech startup based in Punjab. Our mission is to make learning more interactive and engaging by using textbooks. We believe that textbooks are the best way to understand and retain information for a more extended period than videos that are a passive way of learning. So, we are using Augmented Reality to make textbooks more interesting for students.</p>
+															We are an early starge EdTech startup based in Punjab. Our
+															mission is to make learning more interactive and engaging by
+															using textbooks. We believe that textbooks are the best way
+															to understand and retain information for a longer period, as
+															compared to videos which are a passive way of learning.
+
+															So, we are using Augmented Reality, to make text books more
+															interesting for students.</p>
 													</div>
 												</div>
 											</div>
@@ -549,7 +528,11 @@
 													class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_center et_pb_bg_layout_dark">
 													<div class="et_pb_text_inner">
 														<p>
-															Grab one for you or your loved ones and children. The HoloKitab 3D ABC Textbook is available on various online shopping platforms. Shop now!</p>
+															Grab one for you or your loved one's and children. HoloKitab
+															is available on various online shopping platforms. Below we
+															have provided links for directly puchasing Holokitab. Just
+															click on them buy now and it will be delivered right at your
+															doorstep.</p>
 													</div>
 												</div>
 												<div
@@ -558,7 +541,7 @@
 														href="#" style="background-color: #ff567500;"><img
 															src="./assests/images/home/flipkart.png" width="150px"></a>
 													<a class="et_pb_button et_pb_custom_button_icon et_pb_button_0 et_pb_bg_layout_light"
-														href="https://www.amazon.in/dp/B08MQJ22RV/ref=cm_sw_r_wa_apa_fabt1_.P7PFbS9K73TW" style="background-color: #ff567500; margin: 10px;"><img
+														href="#" style="background-color: #ff567500; margin: 10px;"><img
 															src="./assests/images/home/amazon.png" width="150px"></a>
 													<br>
 													<br>
@@ -639,7 +622,7 @@
 												<div
 													class="et_pb_module et_pb_text et_pb_text_6  et_pb_text_align_center et_pb_bg_layout_light">
 													<div class="et_pb_text_inner" data-aos="zoom-out">
-														<h2>Features</h2>
+														<h2>Why HoloKitab ?</h2>
 													</div>
 												</div>
 											</div>
@@ -660,7 +643,8 @@
 															<h4 class="et_pb_module_header"><span>HD Graphics</span>
 															</h4>
 															<div class="et_pb_blurb_description">
-																<p>Best quality visuals make it real-life and fun!</p>
+																<p>The quality and graphics of virtual objects are
+																	brilliant.</p>
 															</div>
 														</div>
 													</div>
@@ -678,10 +662,10 @@
 																		src="./assests/images/home/easytouse.png"></span></span>
 														</div>
 														<div class="et_pb_blurb_container">
-															<h4 class="et_pb_module_header"><span>Ease To Use</span>
+															<h4 class="et_pb_module_header"><span>East To Use</span>
 															</h4>
 															<div class="et_pb_blurb_description">
-																<p>The interface is easy to use and specially
+																<p>The interface is quite easy to use. Specially
 																	designed for kids.</p>
 															</div>
 														</div>
@@ -704,7 +688,10 @@
 																	Offline</span>
 															</h4>
 															<div class="et_pb_blurb_description">
-																<p>Install it once and enjoy your 3D book anywhere you go
+																<p>Once you have installed the app there is no need
+																	of
+																	internet connection. As it works completely
+																	offline.
 																</p>
 															</div>
 

@@ -1,0 +1,29 @@
+--- index.html
++++ index.html
+@@ -367,26 +367,6 @@
+ 				</div>
+ 			</div>
+ 		</header>
+-		<div class="row holokitab-image">
+-			<div class="col-md-6">
+-				<div class="imagecontainer">
+-                <img src="./assests/images/home/holokitabheader.jpeg" height="700px" width="900px">
+-				</div>
+-			</div>
+-			<div class="col-md-6">
+-				<div class="bookrightside">
+-                <div class="booktitle">
+-                      <h1 class="title">Holokitab - ABC</h1>
+-				</div>
+-				<div class="bookdesciption">
+-					<h5>here is the desciption</h5>
+-				</div>
+-			    <div class="bookuttons">
+-					
+-				</div>
+-			</div>
+-			</div>
+-		</div>
+ 		<div id="et-main-area">
+ 			<div id="main-content">
+ 				<article id="post-216356" class="post-216356 page type-page status-publish hentry">
