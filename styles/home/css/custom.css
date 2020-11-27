@@ -54,7 +54,7 @@ body {
 @media (min-width: 766px) and (max-width: 1440px) {
     
     .bookleft {
-        padding-top: 188px!important;
+        /* padding-top: 188px!important; */
     }
     .btnone {
         width: 200px;
@@ -65,7 +65,7 @@ body {
 }
 @media (min-width: 411px) and (max-width: 1000px) {
     .bookleft {
-        padding-top: 68px;
+        /* padding-top: 68px; */
     }
 } 
 @media (min-width: 1000px){
@@ -74,7 +74,7 @@ body {
         display: flex;
     }
     .bookbuttons {
-        display: grid!important;
+        display: flex!important;
     }
     
    
@@ -84,7 +84,7 @@ body {
     font-family: 'Fredoka One',display;
 }
 .bookbuttons {
-    display: flex;
+    display: block;
     justify-content: center;
 }
 .descontent {
@@ -103,7 +103,7 @@ body {
 }
 .imagecontainer {
     justify-content: center;
-    padding-top: 60px;
+    /* padding-top: 60px; */
     width: 100%;
     max-width: 100%;
    
@@ -118,7 +118,7 @@ body {
     width: 100%;
 }
 .bookleft {
-    padding-top: 68px;
+    /* padding-top: 68px; */
     align-items: center;
     text-align: center !important;
     width: 100%;
@@ -139,8 +139,9 @@ body {
 .booktitle {
     color: #f0ab47;
     font-weight: 200;
-    font-size: 35px;
+    font-size: 5px;
     font-family: 'Fredoka One',display;
+    padding: 0px;
 }
 .btnone {
     /* color: #fde5e5!important;
